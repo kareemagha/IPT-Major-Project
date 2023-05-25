@@ -12,78 +12,64 @@ body {
     margin: 0;
   }
 
-#front {
-    margin-left: auto;
-  }
+/* img {
+	width: 70%;
+} */
 
-#header-text {
-    font-size: 40px;
+
+
+.colour {
+	background: linear-gradient(to right, #30CFD0 0%, #2c67e7 100%);
+}
+
+#meet {
+	font-size: 60px;
     font-family: poppins;
     padding-right: 1em;
     padding-right: 1em;
-    margin-top: 0;
-    text-align: center;
-  }
-
-#about {
-    font-size: 24px !important;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-top: 0.5em;
+	margin-bottom: 1em;
     text-align: center;
 }
 
-#name {
+footer {
     text-align: center;
-    font-style: italic;
-    margin-top: 0;
-    text-transform: uppercase;
-	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    font: 1.4em poppins;
+    padding-top: 3em;
+    color: grey;
 }
 
-/* Gallery */
-#agallery {
-    display: flex;
-    justify-content: center;
-    font-weight: 500;
-    font-family: poppins;
-    font-size: 28px;
+.right{
+	display: block;
+	float: right;
+	padding-right: 8em;
 }
 
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 500px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-
-
-#learnmore {
-    font-size: 40px;
-    font-family: poppins;
-    padding-right: 1em;
-    padding-right: 1em;
-    margin-top: 2em;
-    text-align: center;
+.left {
+	display: block;
+	float: left;
+	padding-left: 9em;
 }
 
+tr,td {
+	padding: 15px;
+	border: white 5px;
+}
+tr {
+	border:3px solid transparent;
+}
 
+tr:hover {
+    border: 3px solid black;
+    margin: -2px;
+  }
 
+table {
+	width: 85%;
+	border: 1px solid #ddd;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /* info icon */
 .help-tip{
@@ -200,10 +186,30 @@ body {
     }
 }
 
+td {
+	vertical-align: top;
+	font-size: 18px;
+	font-family: poppins;
+	padding-left: 8em;
+	text-align: justify;
+}
+
 .name{
 	font-size: 60px;
 }
 
-#vid {
-    font-family: poppins;
+.home-button {
+	position: fixed;
+	top: 1em;
+	left: 4em;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: #fff ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #fff;
+
 }
