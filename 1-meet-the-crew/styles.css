@@ -16,6 +16,12 @@ body {
 	width: 70%;
 } */
 
+#player{
+	font-family: poppins;
+	width: 50%; 
+	margin: 0 auto; 
+	text-align: center
+}
 
 
 .colour {
